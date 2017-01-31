@@ -14,6 +14,8 @@
 		04A9CA2F1E4037990044DADA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04A9CA2D1E4037990044DADA /* LaunchScreen.storyboard */; };
 		04A9CA3A1E4037990044DADA /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9CA391E4037990044DADA /* TippyTests.swift */; };
 		04A9CA451E4037990044DADA /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9CA441E4037990044DADA /* TippyUITests.swift */; };
+		04A9CA531E4044840044DADA /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9CA521E4044840044DADA /* SettingsViewController.swift */; };
+		04A9CA551E4055E20044DADA /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9CA541E4055E20044DADA /* Setting.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		04A9CA401E4037990044DADA /* TippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A9CA441E4037990044DADA /* TippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TippyUITests.swift; sourceTree = "<group>"; };
 		04A9CA461E4037990044DADA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04A9CA521E4044840044DADA /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		04A9CA541E4055E20044DADA /* Setting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,9 +104,11 @@
 				04A9CA241E4037990044DADA /* AppDelegate.swift */,
 				04A9CA261E4037990044DADA /* ViewController.swift */,
 				04A9CA281E4037990044DADA /* Main.storyboard */,
+				04A9CA521E4044840044DADA /* SettingsViewController.swift */,
 				04A9CA2B1E4037990044DADA /* Assets.xcassets */,
 				04A9CA2D1E4037990044DADA /* LaunchScreen.storyboard */,
 				04A9CA301E4037990044DADA /* Info.plist */,
+				04A9CA541E4055E20044DADA /* Setting.swift */,
 			);
 			path = Tippy;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				04A9CA271E4037990044DADA /* ViewController.swift in Sources */,
 				04A9CA251E4037990044DADA /* AppDelegate.swift in Sources */,
+				04A9CA551E4055E20044DADA /* Setting.swift in Sources */,
+				04A9CA531E4044840044DADA /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
